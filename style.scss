@@ -1,0 +1,435 @@
+$color_1: #fff;
+$color_2: rgba(255, 255, 255, 0.8);
+$color_3: #dd2242;
+$color_4: #939393;
+$color_5: #e0e0e0;
+$color_6: #010a20;
+$color_7: #6f7787;
+$color_8: rgba(21, 20, 57, 0.4);
+$color_9: white;
+$font-family_1: "DM Sans", sans-serif;
+$background-color_1: #dd2242;
+$background-color_2: #000;
+$background-color_3: rgba(255, 255, 255, 0.5);
+$background-color_4: #fff;
+$background-color_5: white;
+$background-color_6: #010a20;
+$background-color_7: #bb1a34;
+$background-color_8: rgba(255, 255, 255, 0.9);
+$background-color_9: #007bff;
+$background-color_10: #0056b3;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.container{
+    display: flex;
+    max-width: 100%;
+}
+.explore-indonesia-section {
+	max-width: 1600px;
+	margin: 0 auto;
+	font-family: $font-family_1;
+}
+.hero {
+	position: relative;
+	min-height: 1080px;
+	color: $color_1;
+}
+.hero-bg {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 28px;
+	position: relative;
+	z-index: 1;
+}
+.logo {
+	width: 185px;
+}
+.nav-menu {
+	display: flex;
+	gap: 40px;
+}
+.nav-link {
+	color: $color_1;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+}
+.social-icons {
+	display: flex;
+	gap: 40px;
+}
+.social-icon {
+	width: 24px;
+	height: 24px;
+}
+.hero-content {
+	position: relative;
+	z-index: 1;
+	padding: 136px 0 0 42px;
+}
+.hero-title {
+	color: $color_1;
+	font-size: 120px;
+	font-weight: 900;
+	line-height: 1.08;
+	text-transform: uppercase;
+	margin-bottom: 21px;
+}
+.cta-button {
+	display: inline-block;
+	background-color: $background-color_1;
+	color: $color_2;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 26px 20px;
+	border-radius: 211px;
+	text-decoration: none;
+}
+.features {
+	display: flex;
+	background-color: $background-color_2;
+	padding: 47px 76px;
+	margin-top: 197px;
+}
+.feature {
+	flex: 1;
+	color: $color_1;
+}
+.feature-number {
+	color: $color_3;
+	font-size: 16px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.feature-title {
+	font-size: 26px;
+	font-weight: 700;
+	margin: 21px 0;
+}
+.feature-description {
+	color: $color_4;
+	font-size: 18px;
+	line-height: 1.56;
+}
+.image-section {
+	position: relative;
+	aspect-ratio: 1.642;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+.image-overlay {
+	position: absolute;
+	inset: 0;
+	background-color: $background-color_3;
+	border-radius: 50%;
+	width: 78px;
+	height: 78px;
+}
+.destinations {
+	background-image: url(./images/hero-bg-4k-2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 184px 0 7px;
+	color: $color_1;
+	z-index: 2;
+}
+.destination {
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.destination-image {
+	width: 630px;
+	border-radius: 10px;
+	margin-left: 30px;
+}
+.beach {
+	margin-left: 200px;
+}
+.destination-content {
+	width: 38%;
+	padding-left: 20px;
+}
+.destination-title {
+	font-size: 42px;
+	line-height: 1.19;
+	margin-bottom: 35px;
+}
+.destination-description {
+	color: $color_5;
+	font-size: 18px;
+	line-height: 1.56;
+	margin-bottom: 47px;
+}
+.learn-more {
+	display: inline-block;
+	background-color: $background-color_1;
+	color: $color_1;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 16px 24px;
+	border-radius: 32px;
+	text-decoration: none;
+}
+.gallery-section {
+	background-color: $background-color_4;
+	padding: 205px 80px;
+	text-align: center;
+}
+.gallery-title {
+	font-size: 60px;
+	font-weight: 700;
+	color: $color_6;
+	margin-bottom: 34px;
+}
+.gallery-description {
+	color: $color_7;
+	font-size: 18px;
+	line-height: 1.56;
+	max-width: 800px;
+	margin: 0 auto 73px;
+}
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.gallery-item {
+	img {
+		width: 100%;
+		border-radius: 10px;
+	}
+}
+.gallery-item1 {
+	margin-right: -100px;
+}
+.gallery-item3 {
+	margin-left: -100px;
+}
+.gallery-item4 {
+	margin-right: -100px;
+}
+.gallery-item5 {
+	margin-top: -315px;
+}
+.gallery-item6 {
+	margin-top: -150px;
+	margin-left: -100px;
+}
+.steps-section {
+	background-color: $background-color_5;
+	padding: 118px 80px;
+}
+.steps-title {
+	font-size: 60px;
+	font-weight: 700;
+	color: $color_6;
+	margin-bottom: 63px;
+}
+.step {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 95px;
+}
+.step-icon {
+	width: 59px;
+	margin-right: 44px;
+}
+.step-content {
+	flex: 1;
+}
+.step-title {
+	font-size: 26px;
+	font-weight: 700;
+	color: $color_6;
+	margin-bottom: 26px;
+}
+.step-description {
+	color: $color_8;
+	font-size: 23px;
+	line-height: 1.65;
+}
+.footer {
+	background-color: $background-color_6;
+	padding: 48px 80px;
+	color: $color_1;
+}
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.footer-logo {
+	color: $color_1;
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.32px;
+}
+.footer-nav {
+	display: flex;
+	gap: 35px;
+}
+.footer-link {
+	color: $color_1;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+}
+.footer-social {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+.footer-social-icon {
+	width: 104px;
+}
+.copyright {
+	margin-top: 6px;
+	font-size: 18px;
+}
+.back-to-top {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	display: none;
+	background-color: $background-color_1;
+	color: $color_9;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 24px;
+	text-align: center;
+	&:hover {
+		background-color: $background-color_7;
+	}
+}
+.search-bar-explore-indonesia-section {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	background-color: $background-color_8;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	input[type="text"] {
+		width: 70%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		font-size: 16px;
+		margin-right: 10px;
+	}
+	button {
+		padding: 10px 20px;
+		background-color: $background-color_9;
+		color: $color_1;
+		border: none;
+		border-radius: 5px;
+		font-size: 16px;
+		cursor: pointer;
+	}
+}
+.search-bar-container {
+	button {
+		&:hover {
+			background-color: $background-color_10;
+		}
+	}
+}
+@media (max-width: 991px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 100%;
+
+    }
+	.explore-indonesia-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	.hero-title {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+		font-size: 40px;
+		line-height: 1.2;
+	}
+	.features {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+		flex-direction: column;
+		padding: 40px 20px;
+	}
+	.feature {
+		margin-bottom: 40px;
+        margin: 0 auto;
+	}
+	.destination {
+		flex-direction: column;
+	}
+	.destination-image {
+		width: 100%;
+	}
+	.destination-content {
+		width: 100%;
+		padding-left: 0;
+		margin-top: 20px;
+	}
+	.gallery-section {
+		padding: 100px 20px;
+	}
+	.steps-section {
+		padding: 100px 20px;
+	}
+	.footer {
+		padding: 100px 20px;
+	}
+	.gallery-grid {
+		grid-template-columns: 1fr;
+	}
+	.step {
+		flex-direction: column;
+	}
+	.step-icon {
+		margin-bottom: 20px;
+	}
+	.footer-content {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer-nav {
+		margin-top: 20px;
+	}
+	.footer-social {
+		margin-top: 20px;
+	}
+}
