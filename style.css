@@ -73,6 +73,18 @@
   padding: 136px 0 0 42px;
 }
 
+.carousel-section {
+  position: relative;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  text-align: center;
+  background: url("../assets/imgs/gallery.png") no-repeat center center/cover;
+}
+
 .hero-title {
   color: #fff;
   font-size: 120px;
@@ -126,7 +138,6 @@
 
 .image-section {
   position: relative;
-  aspect-ratio: 1.642;
   display: flex;
   align-items: center;
   justify-content: center;
