@@ -73,16 +73,46 @@
   padding: 136px 0 0 42px;
 }
 
-.carousel-section {
-  position: relative;
-  height: 200vh;
+.our-hils {
+  width: 1500px;
+  height: 900px;
+  background-image: url(./images/hills.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 184px 0 7px;
+}
+
+.our-h2 {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  color: #fff;
+  font-size: 50px;
+  margin-top: 1%;
+  color: black;
+}
+
+.our-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
   text-align: center;
-  background: url("../assets/imgs/gallery.png") no-repeat center center/cover;
+  font-size: 20px;
+  color: rgb(211, 28, 80);
+  max-width: 470px;
+  margin: 0 auto;
+}
+
+.our-button {
+  width: 210px;
+  height: 64px;
+  padding: 5px;
+  background-color: #bb1a34;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -138,6 +168,7 @@
 
 .image-section {
   position: relative;
+  aspect-ratio: 1.642;
   display: flex;
   align-items: center;
   justify-content: center;
