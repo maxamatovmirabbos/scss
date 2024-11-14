@@ -110,6 +110,9 @@ $background-color_10: #0056b3;
 	margin: 0 auto;
 }
 .our-button{
+	display: flex;
+	justify-content: center;
+	
 	width: 210px;
 	height: 64px;
 	padding: 5px;
@@ -117,7 +120,15 @@ $background-color_10: #0056b3;
 	color: white;
 	text-decoration: none;
 	border-radius: 10px;
-	margin: 0 auto;
+	
+}
+.video{
+	width: 1500px;
+	height: 900px;
+	background-image: url(./images/street.jpg);
+	background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
 }
 .hero-title {
 	color: $color_1;
